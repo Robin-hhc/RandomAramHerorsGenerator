@@ -1,8 +1,7 @@
 import discord
-from discord.ext import commands
 from aramList import generator
 
-bot = commands.Bot(command_prefix='$', description='A bot that greets the user back.')
+bot = discord.Bot()
 
 
 @bot.event
