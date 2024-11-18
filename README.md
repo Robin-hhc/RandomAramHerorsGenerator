@@ -12,4 +12,5 @@ For the first time using after an patch update, run tierListCrawler.py to update
 After the heres.txt is updated, run aramList.py to generate random hero choices for each team. The result will be printed in console. You may copy and paste it to your friends.
 
 Example output: <br>
-![1731957957413](https://github.com/user-attachments/assets/c046da66-c3a2-4259-870d-0a23be482a29)
+![image](https://github.com/user-attachments/assets/d281280d-22c0-44bb-ad84-b099d80d8922)
+
