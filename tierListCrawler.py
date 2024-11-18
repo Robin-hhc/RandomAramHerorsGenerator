@@ -27,7 +27,7 @@ def fetch_opgg_aram_tier_list():
 
 if __name__ == "__main__":
     tier_list = fetch_opgg_aram_tier_list()
-    filename = "heros.txt"
+    filename = "heroes.txt"
     with open(filename, 'w', encoding='utf-8') as file:
         for line in tier_list:
             file.write(line[0] + ", " + line[1] + ", " + line[2] + "\n")
