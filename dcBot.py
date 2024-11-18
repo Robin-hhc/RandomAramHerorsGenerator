@@ -16,5 +16,5 @@ async def generate_heroes(ctx):
     filename = 'heroes.txt'
     await ctx.respond(generator(filename))
 
-token = "MTMwODE1NTMzODczNzg0NDMzNw.GO1SkU._Mq_vtRFrMEHJh-JQGPcVi8Rpnb5NLZ4sBpjxA"
+token = "" # paste ur bot token
 bot.run(token)
