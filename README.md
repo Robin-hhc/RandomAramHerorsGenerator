@@ -19,5 +19,5 @@ Example output: <br>
 # Link to your discord bot
 Refer to https://boostlog.io/_junp1234/how-to-write-a-discord-bot-in-python-5a8e73aca7e5b7008ae1da8b/, make a discord bot
 and add it to your server. After that, update your own discord bot token in dcBot.py. When you need the bot on, keep
-dcBot.py running on you computer. Now you can use the only command /generate_heroes in the chat to get the output.
+dcBot.py running on you computer. Now you can use the only command /generate_heroes in the chat to get the output. <br>
 ![img.png](img.png)
