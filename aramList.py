@@ -13,7 +13,7 @@ def generator(filename, size=15):
     res = "Team 1:\n"
     for e in source_list[:size]:
         res += e + "\n"
-    res += "\nTeam 2:"
+    res += "\nTeam 2:\n"
     for e in source_list[size:size * 2]:
         res += e + "\n"
     return res
