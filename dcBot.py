@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands
 from aramList import generator
 
-# 这里 proxy 根据你自己的需要进行填写，也可以不用填
 bot = commands.Bot(command_prefix='$', description='A bot that greets the user back.')
 
 
@@ -16,5 +15,6 @@ async def generate_heroes(ctx):
     filename = 'heroes.txt'
     await ctx.respond(generator(filename))
 
-token = "" # paste ur bot token
+
+token = ""  # Put your own bot token here
 bot.run(token)
